@@ -5,7 +5,7 @@ module.exports = {
    findBy
 }
 
-function addUser(user) {
+async function addUser(user) {
    return db('users')
       .insert(user);
 } 
